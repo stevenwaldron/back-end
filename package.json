@@ -1,0 +1,33 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "server": "nodemon index.js",
+    "start": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Build-Week-Med4/back-end.git"
+  },
+  "author": "steven waldron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Build-Week-Med4/back-end/issues"
+  },
+  "homepage": "https://github.com/Build-Week-Med4/back-end#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.5",
+    "nodemon": "^2.0.4",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "crossenv": "0.0.2-security"
+  }
+}
